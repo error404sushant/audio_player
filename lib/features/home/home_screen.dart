@@ -57,11 +57,8 @@ class _HomeScreenState extends State<HomeScreen> {
           scrollDirection: Axis.horizontal,
           itemCount: 100,
           itemBuilder: (context, index) {
-            return CupertinoButton(
-              padding: EdgeInsets.zero,
-              onPressed: (){
-                //homeBloc.init();
-              },
+            return InkWell(
+            
               child: Container(
                 width: 100,
                 margin: EdgeInsets.all(10),
